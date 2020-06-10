@@ -1,0 +1,25 @@
+.fa-chevron-right {
+  transition: transform 0.2s ease-in-out 0s;
+}
+
+/* rotate the chevron when the open class is applied */
+li.open .fa-chevron-right {
+  transform: rotate(90deg);
+}
+
+.nav li {
+  font-size: 18px;
+}
+
+.vertical_center_div{
+  position: relative;
+  top: 100%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.row-first {
+    height:50%;
+    overflow: hidden;
+}
